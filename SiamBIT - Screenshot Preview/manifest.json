@@ -1,7 +1,8 @@
 {
   "manifest_version": 2,
   "name": "SiamBIT - Screenshot Preview",
-  "description": "This extension use to show sceenshot image on \"file select\" page at SiamBIT",
+  "short_name": "SiamBIT - SS Preview",
+  "description": "This extension use to show screenshots image on \"file select\" page at SiamBIT",
   "version": "1.0",
   "author": "Chanwit Settavongsin",
   "content_scripts": [
