@@ -8,3 +8,4 @@ var list = document.querySelectorAll('[title="รูปภาพตัวอย�
             list[i].style.display = "block";
         }
     }
+// Create by max180643 (Chanwit Settavongsin)!
