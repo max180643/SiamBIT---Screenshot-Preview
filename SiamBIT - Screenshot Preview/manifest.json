@@ -3,7 +3,7 @@
   "name": "SiamBIT - Screenshot Preview",
   "short_name": "SiamBIT - SS Preview",
   "description": "This extension use to show screenshots image on \"file select\" page at SiamBIT",
-  "version": "1.0",
+  "version": "1.2",
   "author": "Chanwit Settavongsin",
   "content_scripts": [
   {

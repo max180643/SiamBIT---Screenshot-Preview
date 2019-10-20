@@ -1,4 +1,4 @@
-var list = document.querySelectorAll('[title="รูปภาพตัวอย่าง"]');
+var list = document.querySelectorAll('[title="รูปภาพตัวอย่าง"], [title="รูปภาพ"]');
     for (i = 0; i < list.length; i++) {
         var extension = list[i].parentNode.href.split('.').pop();
         if (extension === 'jpg' || extension === 'jpeg' || extension === 'png' || extension === 'gif') {
