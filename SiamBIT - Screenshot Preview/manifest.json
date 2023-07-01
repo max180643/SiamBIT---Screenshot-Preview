@@ -1,9 +1,8 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "SiamBIT - Screenshot Preview",
-  "short_name": "SiamBIT - SS Preview",
-  "description": "This extension use to show screenshots image on \"file select\" page at SiamBIT",
-  "version": "1.2",
+  "description": "Show screenshots image instead camera icon with title \"รูปภาพตัวอย่าง\" on the files list page of SiamBIT website.",
+  "version": "1.2.1",
   "author": "Chanwit Settavongsin",
   "content_scripts": [
   {
@@ -12,14 +11,13 @@
     "run_at": "document_end"
   }
  ],
-  "permissions": ["activeTab"],
   "icons": {
     "16": "icon16.png",
     "32": "icon32.png",
     "48": "icon48.png",
     "128": "icon128.png"
   },
-  "browser_action": {
+  "action": {
     "default_icon": {
       "16": "icon16.png",
       "32": "icon32.png",
